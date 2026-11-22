@@ -1,4 +1,4 @@
-#Journal
+# Journal
 
 In this journal I try to write, visualize and summarize my interim findings during the project.
 
