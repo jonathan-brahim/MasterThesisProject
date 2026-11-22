@@ -1,11 +1,10 @@
-*Journal*
+#Journal
 
 In this journal I try to write, visualize and summarize my interim findings during the project.
 
 **Last updated:** 22 nov 2026  
 **Author:** Jonathan Brahim 
 
----
 
 ## Phase 1 - PBQC Simulation Pipeline 
 
@@ -42,7 +41,7 @@ The pipeline continues by taking different (sub)circuits (can also be the full c
   <img src="phase1/outputs_journal/circuit_K3_region_1.png" width="20%"/>
   <img src="phase1/outputs_journal/brickwork_K3_region_1.png" width="20%"/>
    <br/>
-  <em>Fig. 3. Two  (subcircuits) from K3-graph from Fig. 1. (a.) and (c.) both converted into brickwork graphs; respectively (b.) and (d.)  </em>
+  <em>Fig. 3. Two gates (subcircuits) from K3-graph from Fig. 1 | (a.) and (c.) both converted into brickwork graphs; respectively (b.) and (d.)  </em>
 </p>
 
 
@@ -52,7 +51,7 @@ The pipeline continues by taking different (sub)circuits (can also be the full c
   <img src="phase1/outputs_journal/circuit_K3_vary_region_1.png" width="20%"/>
   <img src="phase1/outputs_journal/brickwork_K3_vary_region_1.png" width="20%"/>
    <br/>
-  <em>Fig. 4. Two  (subcircuits) from different weighted K3-graph from Fig. 2. (a.) and (c.) both converted into brickwork graphs; respectively (b.) and (d.)  </em>
+  <em>Fig. 4. Two gates (subcircuits) from different weighted K3-graph from Fig. 2 | (a.) and (c.) both converted into brickwork graphs; respectively (b.) and (d.)  </em>
 </p>
 
 Finally a list of most resources is printed and saved for comparison. The result here show the Table below.
@@ -64,3 +63,5 @@ Finally a list of most resources is printed and saved for comparison. The result
 | K3_region_1 | 39 | 13 | 3 | 3 | 3 | 3 | 2 |
 | K3_vary_region_0 | 39 | 13 | 3 | 3 | 3 | 3 | 2 |
 | K3_vary_region_1 | 39 | 13 | 3 | 3 | 3 | 3 | 2 |
+
+Observation: having the same quantum circuit structure with same selected converted gates but different weights as rotation does not change the amount of resources in a brickwork graph.
